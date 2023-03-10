@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 20;
-        int miles = 1;
-
-        int price = 200;
-        int summiles =20;
-        System.out.println(summiles);
+        int price = 3400;
+        int miles = 20; // за каждые 20 рублей начисляется 1 миля
+        int bonus = price / miles;
+        System.out.println(bonus);
 
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
